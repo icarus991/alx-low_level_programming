@@ -46,3 +46,15 @@ void largest_prime_factor(long int num)
 		larg = num;
 	printf("%d\n", larg);
 }
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (succes)
+*/
+int main(void)
+{
+	largest_prime_factor(612852475143);
+
+	return (0);
+}
