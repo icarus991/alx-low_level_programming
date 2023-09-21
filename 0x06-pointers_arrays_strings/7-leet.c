@@ -2,12 +2,12 @@
 
 /**
  * leet - Encodes a string into "leet" or "1337" speak.
- * @str: A pointer to the string to be encoded.
+ * @c: A pointer to the string to be encoded.
  *
  * Return: A pointer to the encoded string.
 */
 
-char *leet(char *)
+char *leet(char *c)
 {
 	char *cp = c;
 	char key[] = {'A', 'E', 'O', 'T', 'L'};
