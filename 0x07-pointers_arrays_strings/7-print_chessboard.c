@@ -5,7 +5,7 @@
  * @a: A 2D array representing the chessboard.
 */
 
-void print_chessboard(char (*a)[8]);
+void print_chessboard(char (*a)[8])
 {
 	int str, ste;
 

@@ -8,7 +8,7 @@
  * @size: The size of the square matrix.
 */
 
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
 	int str, s1 = 0, s2 = 0;
 
